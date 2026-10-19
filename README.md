@@ -15,7 +15,9 @@ repository, so this folder's contents are also pushed to the root of
 [zhanyysh/devops-week5-ci](https://github.com/zhanyysh/devops-week5-ci), where
 the workflow runs. The badge above is that repo's status.
 
-Green run: GREEN_RUN_LINK
+Green run: <https://github.com/zhanyysh/devops-week5-ci/actions/runs/39236464330>
+(`lint`, `test (3.12)`, `test (3.13)` and `build` all passed; artifacts
+`test-results-py3.12`, `test-results-py3.13` and `image-digest` uploaded).
 
 ## Files
 
