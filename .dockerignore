@@ -1,0 +1,45 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.key
+
+# Python caches and virtualenvs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+
+# Node (in case of tooling in the folder)
+node_modules/
+
+# Test output and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+test-results/
+tests/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Files not needed inside the image (also keeps edits to them from
+# invalidating the build cache)
+Dockerfile*
+.dockerignore
+build.sh
+run.sh
+README.md
+grade.txt
